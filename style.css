@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: "Roboto";
+    background-color: rgb(35, 45, 45);
+    color: white;
+}
+#numberInput{
+    background-color: rgb(122, 0, 255);
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    font-size: 30px;
+    transition: background-color 1s;
+}
+#numberInput:hover{
+    background-color: rgb(94, 0, 201);
+}
+#guessBtn{
+    background-color: rgb(122, 0, 255);
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: rgb(122, 0, 255);
+    font-size: 35px;
+    transition: background-color 1s;
+}
+#guessBtn:hover{
+    background-color: rgb(94, 0, 201);
+}
+#tryAgainBtn{
+    background-color: rgb(122, 0, 255);
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: rgb(122, 0, 255);
+    font-size: 35px;
+    transition: background-color 1s;
+}
+#tryAgainBtn:hover{
+    background-color: rgb(94, 0, 201);
+}
+#wholeBox{
+    border: 10px solid;
+    border-radius: 50px;
+    border-color: rgb(122, 0, 255);
+    max-width: 750px;
+    margin: auto;
+    box-shadow: 0px 0px 50px rgb(122, 0, 255);
+}
+#enterText{
+    font-size: 40px;
+}
+#resultText{
+    font-size: 35px;
+}
+#finalText{
+    font-size: 35px;
+}
+
