@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess a number!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="mainText">Guess a number</p>
+    <form>
+    <div id="wholeBox">
+        <p id="enterText">Enter a number from 1 to 100 here:</p>
+        <input type="number" min="1" max="100" value="1" id="numberInput">
+        <br>
+        <br>
+        <button id="guessBtn" type="button">Guess</button>
+        <button id="tryAgainBtn" type="button">Try again</button>
+        <p id="infoParagraph"></p>
+        <p id="resultText">Result:</p>
+        <p id="finalText"></p>
+    </div>
+    </form>
+    <script src="scriptj.js"></script>
+</body>
+</html>
